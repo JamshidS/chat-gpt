@@ -4,6 +4,8 @@ package com.chat.streaming.chatservice.dto;
 public class ChatDto {
     private String message;
 
+    public ChatDto(){}
+
     public ChatDto(String message) {
         this.message = message;
     }
