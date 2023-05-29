@@ -11,6 +11,8 @@ public class ChatRequest {
     private int n;
     private double temperature;
 
+    public ChatRequest(){}
+
     public ChatRequest(String model, String prompt) {
         this.model = model;
 
