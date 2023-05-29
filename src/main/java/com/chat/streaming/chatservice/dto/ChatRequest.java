@@ -1,6 +1,9 @@
 package com.chat.streaming.chatservice.dto;
 
+import com.chat.streaming.chatservice.data.Message;
+
 import java.util.ArrayList;
+import java.util.List;
 
 public class ChatRequest {
     private String model;
@@ -11,8 +14,8 @@ public class ChatRequest {
     public ChatRequest(String model, String prompt) {
         this.model = model;
 
-        this.messages = new ArrayList<>();
-        this.messages.add(new Message("user", prompt));
+        this.messageList = new ArrayList<>();
+        this.messageList.add(new Message("user", prompt));
     }
 
     public String getModel() {
