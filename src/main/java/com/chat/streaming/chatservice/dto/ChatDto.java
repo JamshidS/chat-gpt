@@ -1,20 +1,12 @@
 package com.chat.streaming.chatservice.dto;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class ChatDto {
     private String message;
-
-    public ChatDto(){}
-
-    public ChatDto(String message) {
-        this.message = message;
-    }
-
-    public String getMessage() {
-        return message;
-    }
-
-    public void setMessage(String message) {
-        this.message = message;
-    }
 }

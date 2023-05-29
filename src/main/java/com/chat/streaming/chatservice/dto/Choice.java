@@ -8,12 +8,9 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ChatRequest {
-    private String model;
-    private String prompt;
-    private Double temperature;
-    @JsonProperty("max_tokens")
-    private Integer maxTokens;
-    @JsonProperty("top_p")
-    private Double topP;
+public class Choice {
+    private Integer index;
+    private String text;
+    @JsonProperty("finish_reason")
+    private String finishReason;
 }
