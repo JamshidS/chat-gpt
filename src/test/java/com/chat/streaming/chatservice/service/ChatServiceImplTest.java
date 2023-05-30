@@ -24,7 +24,6 @@ class ChatServiceImplTest {
     @Qualifier("openaiRestTemplate")
     @Mock
     private RestTemplate restTemplate;
-
     @InjectMocks private ChatServiceImpl underTest;
 
     @Value("${openai.model}")
