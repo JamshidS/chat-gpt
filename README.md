@@ -1,2 +1,1 @@
-# chat-gpt
-Integrate OPEN-AI with Spring boot Application
+This project focuses on integrating OPEN AI APIs with your Spring Boot application. I have successfully integrated the chat-gpt-turbo-3.5 version, and now you're wondering if it's possible to integrate any other version in a similar manner.
